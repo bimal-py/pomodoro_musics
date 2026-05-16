@@ -6,6 +6,16 @@
       "id": "noise",
       "name": "Noise",
       "icon": "🔊"
+    },
+    {
+      "id": "background",
+      "name": "Background",
+      "icon": "🎵"
+    },
+    {
+      "id": "study_music",
+      "name": "Study Music",
+      "icon": "🎵"
     }
   ],
   "tracks": [
@@ -21,6 +31,21 @@
       "loop": true,
       "featured": false,
       "premium": false
+    },
+    {
+      "id": "relaxing_piano_music",
+      "title": "Relaxing Piano Music",
+      "file": "relaxing_piano_music__background__study_music.aac",
+      "category_ids": [
+        "background",
+        "study_music"
+      ],
+      "size_bytes": 2799111,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "relaxing_piano_music.webp"
     }
   ]
 }
