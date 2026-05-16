@@ -1,0 +1,26 @@
+{
+  "version": 3,
+  "base_url": "https://github.com/bimal-py/pomodoro_musics/releases/download/musics",
+  "categories": [
+    {
+      "id": "noise",
+      "name": "Noise",
+      "icon": "🔊"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "brown_noise",
+      "title": "Brown Noise",
+      "file": "brown_noise__noise.m4a",
+      "category_ids": [
+        "noise"
+      ],
+      "size_bytes": 737065,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false
+    }
+  ]
+}

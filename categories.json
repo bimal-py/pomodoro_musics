@@ -1,0 +1,12 @@
+{
+  "noise": { "name": "Noise", "icon": "🔊", "order": 1 },
+  "rain":  { "name": "Rain", "icon": "🌧️", "order": 2 },
+  "forest":{ "name": "Forest", "icon": "🌳", "order": 3 },
+  "ocean": { "name": "Ocean", "icon": "🌊", "order": 4 },
+  "night": { "name": "Night", "icon": "🌙", "order": 5 },
+  "lofi":  { "name": "Lo-fi", "icon": "🎧", "order": 6 },
+  "piano": { "name": "Piano", "icon": "🎹", "order": 7 },
+  "cafe":  { "name": "Cafe", "icon": "☕", "order": 8 },
+  "train": { "name": "Trains", "icon": "🚆", "order": 9 },
+  "fire":  { "name": "Fireplace", "icon": "🔥", "order": 10 }
+}

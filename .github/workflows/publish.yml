@@ -1,0 +1,82 @@
+name: Publish Music
+
+# Auto-publish workflow.
+# Triggers when audio/image assets, the build script, or category metadata
+# change on `main`. Generates manifest.json + last_updated.json, uploads
+# every audio + thumbnail file as a release asset, and commits the
+# manifest back to main with [skip ci].
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/**'
+      - 'scripts/build-manifest.js'
+      - 'categories.json'
+      - '.github/workflows/publish.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-music
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build manifest
+        run: node scripts/build-manifest.js
+
+      - name: Ensure release exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! gh release view musics >/dev/null 2>&1; then
+            gh release create musics \
+              --title "Music Library" \
+              --notes "Audio + thumbnails streamed by the Pomodoro app. Auto-published from assets/." \
+              --target main
+          fi
+
+      - name: Upload assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          shopt -s nullglob nocaseglob
+
+          uploaded=0
+          for file in assets/*.{m4a,mp3,ogg,wav,aac,opus,flac,jpg,jpeg,png,gif,webp}; do
+            [ -f "$file" ] || continue
+            base="$(basename "$file")"
+            case "$base" in
+              .*|_*) continue ;;
+            esac
+            echo "uploading $base"
+            gh release upload musics "$file" --clobber
+            uploaded=$((uploaded + 1))
+          done
+          echo "uploaded $uploaded asset(s)"
+
+      - name: Commit manifest changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manifest.json last_updated.json
+          if git diff --cached --quiet; then
+            echo "no manifest changes to commit"
+          else
+            git commit -m "chore(music): rebuild manifest [skip ci]"
+            git push
+          fi
