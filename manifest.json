@@ -8,8 +8,83 @@
       "icon": "🔊"
     },
     {
+      "id": "piano",
+      "name": "Piano",
+      "icon": "🎹"
+    },
+    {
+      "id": "ancient",
+      "name": "Ancient",
+      "icon": "🎵"
+    },
+    {
       "id": "background",
       "name": "Background",
+      "icon": "🎵"
+    },
+    {
+      "id": "chanting",
+      "name": "Chanting",
+      "icon": "🎵"
+    },
+    {
+      "id": "choir",
+      "name": "Choir",
+      "icon": "🎵"
+    },
+    {
+      "id": "empire",
+      "name": "Empire",
+      "icon": "🎵"
+    },
+    {
+      "id": "kingdom",
+      "name": "Kingdom",
+      "icon": "🎵"
+    },
+    {
+      "id": "krishna",
+      "name": "Krishna",
+      "icon": "🎵"
+    },
+    {
+      "id": "mantra",
+      "name": "Mantra",
+      "icon": "🎵"
+    },
+    {
+      "id": "meditation",
+      "name": "Meditation",
+      "icon": "🎵"
+    },
+    {
+      "id": "melancholy",
+      "name": "Melancholy",
+      "icon": "🎵"
+    },
+    {
+      "id": "Melancholy",
+      "name": "Melancholy",
+      "icon": "🎵"
+    },
+    {
+      "id": "nostalgia",
+      "name": "Nostalgia",
+      "icon": "🎵"
+    },
+    {
+      "id": "sad",
+      "name": "Sad",
+      "icon": "🎵"
+    },
+    {
+      "id": "shiva",
+      "name": "Shiva",
+      "icon": "🎵"
+    },
+    {
+      "id": "spiritual",
+      "name": "Spiritual",
       "icon": "🎵"
     },
     {
@@ -19,6 +94,37 @@
     }
   ],
   "tracks": [
+    {
+      "id": "ancient_kingdom",
+      "title": "Ancient Kingdom",
+      "file": "ancient_kingdom__ancient__kingdom__empire.mp3",
+      "category_ids": [
+        "ancient",
+        "kingdom",
+        "empire"
+      ],
+      "size_bytes": 11099904,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "ancient_kingdom.jpg"
+    },
+    {
+      "id": "aumom_namah_shivaya",
+      "title": "Aumom Namah Shivaya",
+      "file": "aumom_namah_shivaya__mantra__shiva.mp3",
+      "category_ids": [
+        "mantra",
+        "shiva"
+      ],
+      "size_bytes": 9778176,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "aumom_namah_shivaya.jpg"
+    },
     {
       "id": "brown_noise",
       "title": "Brown Noise",
@@ -31,6 +137,52 @@
       "loop": true,
       "featured": false,
       "premium": false
+    },
+    {
+      "id": "buddha_meditation",
+      "title": "Buddha Meditation",
+      "file": "buddha_meditation__meditation__spiritual.mp3",
+      "category_ids": [
+        "meditation",
+        "spiritual"
+      ],
+      "size_bytes": 6160128,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "buddha_meditation.jpg"
+    },
+    {
+      "id": "gayatri_mantra",
+      "title": "Gayatri Mantra",
+      "file": "gayatri_mantra__chanting__mantra.mp3",
+      "category_ids": [
+        "chanting",
+        "mantra"
+      ],
+      "size_bytes": 10779167,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "gayatri_mantra.jpg"
+    },
+    {
+      "id": "hare_krishna",
+      "title": "Hare Krishna",
+      "file": "hare_krishna__choir__mantra__krishna.mp3",
+      "category_ids": [
+        "choir",
+        "mantra",
+        "krishna"
+      ],
+      "size_bytes": 11833440,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "hare_krishna.jpg"
     },
     {
       "id": "relaxing_piano_music",
@@ -46,6 +198,37 @@
       "featured": false,
       "premium": false,
       "thumbnail": "relaxing_piano_music.webp"
+    },
+    {
+      "id": "surprising_melancholy",
+      "title": "Surprising Melancholy",
+      "file": "surprising_melancholy__nostalgia__melancholy.mp3",
+      "category_ids": [
+        "nostalgia",
+        "melancholy"
+      ],
+      "size_bytes": 6578688,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "surprising_melancholy.jpg"
+    },
+    {
+      "id": "universfield_melancholy",
+      "title": "Universfield Melancholy",
+      "file": "universfield_melancholy__Melancholy__sad__piano.mp3",
+      "category_ids": [
+        "Melancholy",
+        "sad",
+        "piano"
+      ],
+      "size_bytes": 5514553,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "universfield_melancholy.jpg"
     }
   ]
 }
