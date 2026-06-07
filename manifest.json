@@ -3,14 +3,114 @@
   "base_url": "https://github.com/bimal-py/pomodoro_musics/releases/download/musics",
   "categories": [
     {
-      "id": "noise",
-      "name": "Noise",
-      "icon": "🔊"
+      "id": "meditation",
+      "name": "Meditation",
+      "icon": "🧘"
+    },
+    {
+      "id": "calm",
+      "name": "Calm",
+      "icon": "😌"
+    },
+    {
+      "id": "relax",
+      "name": "Relax",
+      "icon": "💆"
+    },
+    {
+      "id": "focus",
+      "name": "Focus",
+      "icon": "🎯"
+    },
+    {
+      "id": "zen",
+      "name": "Zen",
+      "icon": "☯️"
+    },
+    {
+      "id": "healing",
+      "name": "Healing",
+      "icon": "💚"
+    },
+    {
+      "id": "uplifting",
+      "name": "Uplifting",
+      "icon": "☀️"
+    },
+    {
+      "id": "nature",
+      "name": "Nature",
+      "icon": "🌿"
+    },
+    {
+      "id": "birds",
+      "name": "Birds",
+      "icon": "🐦"
+    },
+    {
+      "id": "rain",
+      "name": "Rain",
+      "icon": "🌧️"
+    },
+    {
+      "id": "forest",
+      "name": "Forest",
+      "icon": "🌳"
+    },
+    {
+      "id": "ocean",
+      "name": "Ocean",
+      "icon": "🌊"
+    },
+    {
+      "id": "lofi",
+      "name": "Lo-fi",
+      "icon": "🎧"
     },
     {
       "id": "piano",
       "name": "Piano",
       "icon": "🎹"
+    },
+    {
+      "id": "ambient",
+      "name": "Ambient",
+      "icon": "🌌"
+    },
+    {
+      "id": "vocal",
+      "name": "Vocal",
+      "icon": "🎤"
+    },
+    {
+      "id": "spiritual",
+      "name": "Spiritual",
+      "icon": "🕉️"
+    },
+    {
+      "id": "mantra",
+      "name": "Mantra",
+      "icon": "📿"
+    },
+    {
+      "id": "chanting",
+      "name": "Chanting",
+      "icon": "🎶"
+    },
+    {
+      "id": "noise",
+      "name": "Noise",
+      "icon": "🔊"
+    },
+    {
+      "id": "short",
+      "name": "Short",
+      "icon": "⏱️"
+    },
+    {
+      "id": "long",
+      "name": "Long",
+      "icon": "⏳"
     },
     {
       "id": "ancient",
@@ -20,11 +120,6 @@
     {
       "id": "background",
       "name": "Background",
-      "icon": "🎵"
-    },
-    {
-      "id": "chanting",
-      "name": "Chanting",
       "icon": "🎵"
     },
     {
@@ -45,16 +140,6 @@
     {
       "id": "krishna",
       "name": "Krishna",
-      "icon": "🎵"
-    },
-    {
-      "id": "mantra",
-      "name": "Mantra",
-      "icon": "🎵"
-    },
-    {
-      "id": "meditation",
-      "name": "Meditation",
       "icon": "🎵"
     },
     {
@@ -83,17 +168,45 @@
       "icon": "🎵"
     },
     {
-      "id": "spiritual",
-      "name": "Spiritual",
-      "icon": "🎵"
-    },
-    {
       "id": "study_music",
       "name": "Study Music",
       "icon": "🎵"
     }
   ],
   "tracks": [
+    {
+      "id": "aberdeen_meditation",
+      "title": "Aberdeen Meditation",
+      "file": "aberdeen_meditation__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 22326070,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "aberdeen_meditation.gif"
+    },
+    {
+      "id": "ambient_piano",
+      "title": "Ambient Piano",
+      "file": "ambient_piano__meditation__piano__ambient__long.m4a",
+      "category_ids": [
+        "meditation",
+        "piano",
+        "ambient",
+        "long"
+      ],
+      "size_bytes": 16111573,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "ambient_piano.gif"
+    },
     {
       "id": "ancient_kingdom",
       "title": "Ancient Kingdom",
@@ -126,6 +239,39 @@
       "thumbnail": "aumom_namah_shivaya.jpg"
     },
     {
+      "id": "beat_relax",
+      "title": "Beat Relax",
+      "file": "beat_relax__meditation__relax__short.m4a",
+      "category_ids": [
+        "meditation",
+        "relax",
+        "short"
+      ],
+      "size_bytes": 2959049,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "beat_relax.gif"
+    },
+    {
+      "id": "bird_relax",
+      "title": "Bird Relax",
+      "file": "bird_relax__meditation__nature__birds__short.m4a",
+      "category_ids": [
+        "meditation",
+        "nature",
+        "birds",
+        "short"
+      ],
+      "size_bytes": 6299403,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "bird_relax.gif"
+    },
+    {
       "id": "brown_noise",
       "title": "Brown Noise",
       "file": "brown_noise__noise.m4a",
@@ -154,6 +300,150 @@
       "thumbnail": "buddha_meditation.jpg"
     },
     {
+      "id": "cloud_calm",
+      "title": "Cloud Calm",
+      "file": "cloud_calm__meditation__calm__short.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "short"
+      ],
+      "size_bytes": 3129330,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "cloud_calm.gif"
+    },
+    {
+      "id": "cosmic_flow",
+      "title": "Cosmic Flow",
+      "file": "cosmic_flow__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 7949263,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "cosmic_flow.gif"
+    },
+    {
+      "id": "deep_focus",
+      "title": "Deep Focus",
+      "file": "deep_focus__meditation__focus__long.m4a",
+      "category_ids": [
+        "meditation",
+        "focus",
+        "long"
+      ],
+      "size_bytes": 21999920,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "deep_focus.gif"
+    },
+    {
+      "id": "deep_relief",
+      "title": "Deep Relief",
+      "file": "deep_relief__meditation__relax__short.m4a",
+      "category_ids": [
+        "meditation",
+        "relax",
+        "short"
+      ],
+      "size_bytes": 3402155,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "deep_relief.gif"
+    },
+    {
+      "id": "deep_trance",
+      "title": "Deep Trance",
+      "file": "deep_trance__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 21471938,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "deep_trance.gif"
+    },
+    {
+      "id": "drifting_clouds",
+      "title": "Drifting Clouds",
+      "file": "drifting_clouds__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 15522071,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "drifting_clouds.gif"
+    },
+    {
+      "id": "floating_meditation",
+      "title": "Floating Meditation",
+      "file": "floating_meditation__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 14963223,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "floating_meditation.gif"
+    },
+    {
+      "id": "flowing_calm",
+      "title": "Flowing Calm",
+      "file": "flowing_calm__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 22070955,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "flowing_calm.gif"
+    },
+    {
+      "id": "foetal_meditation",
+      "title": "Foetal Meditation",
+      "file": "foetal_meditation__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 10858235,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "foetal_meditation.gif"
+    },
+    {
       "id": "gayatri_mantra",
       "title": "Gayatri Mantra",
       "file": "gayatri_mantra__chanting__mantra.mp3",
@@ -167,6 +457,22 @@
       "featured": false,
       "premium": false,
       "thumbnail": "gayatri_mantra.jpg"
+    },
+    {
+      "id": "gentle_waves",
+      "title": "Gentle Waves",
+      "file": "gentle_waves__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 29260717,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "gentle_waves.gif"
     },
     {
       "id": "hare_krishna",
@@ -185,6 +491,347 @@
       "thumbnail": "hare_krishna.jpg"
     },
     {
+      "id": "hare_krishna_meditation",
+      "title": "Hare Krishna Meditation",
+      "file": "hare_krishna_meditation__meditation__mantra__spiritual__long.m4a",
+      "category_ids": [
+        "meditation",
+        "mantra",
+        "spiritual",
+        "long"
+      ],
+      "size_bytes": 2261455,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "hare_krishna_meditation.gif"
+    },
+    {
+      "id": "healing_prayers",
+      "title": "Healing Prayers",
+      "file": "healing_prayers__meditation__healing__spiritual__long.m4a",
+      "category_ids": [
+        "meditation",
+        "healing",
+        "spiritual",
+        "long"
+      ],
+      "size_bytes": 19614671,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "healing_prayers.gif"
+    },
+    {
+      "id": "healing_sounds",
+      "title": "Healing Sounds",
+      "file": "healing_sounds__meditation__healing__long.m4a",
+      "category_ids": [
+        "meditation",
+        "healing",
+        "long"
+      ],
+      "size_bytes": 21049502,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "healing_sounds.gif"
+    },
+    {
+      "id": "inner_focus",
+      "title": "Inner Focus",
+      "file": "inner_focus__meditation__focus__short.m4a",
+      "category_ids": [
+        "meditation",
+        "focus",
+        "short"
+      ],
+      "size_bytes": 2914274,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "inner_focus.gif"
+    },
+    {
+      "id": "inner_peace",
+      "title": "Inner Peace",
+      "file": "inner_peace__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 21303099,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "inner_peace.gif"
+    },
+    {
+      "id": "lady_humming",
+      "title": "Lady Humming",
+      "file": "lady_humming__meditation__vocal__short.m4a",
+      "category_ids": [
+        "meditation",
+        "vocal",
+        "short"
+      ],
+      "size_bytes": 2961073,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "lady_humming.gif"
+    },
+    {
+      "id": "lanark_meditation",
+      "title": "Lanark Meditation",
+      "file": "lanark_meditation__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 22634256,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "lanark_meditation.gif"
+    },
+    {
+      "id": "lofi_meditation",
+      "title": "Lofi Meditation",
+      "file": "lofi_meditation__meditation__lofi__short.m4a",
+      "category_ids": [
+        "meditation",
+        "lofi",
+        "short"
+      ],
+      "size_bytes": 2488823,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "lofi_meditation.gif"
+    },
+    {
+      "id": "lofi_vibes",
+      "title": "Lofi Vibes",
+      "file": "lofi_vibes__meditation__lofi__short.m4a",
+      "category_ids": [
+        "meditation",
+        "lofi",
+        "short"
+      ],
+      "size_bytes": 4794321,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "lofi_vibes.gif"
+    },
+    {
+      "id": "love_meditation",
+      "title": "Love Meditation",
+      "file": "love_meditation__meditation__calm__short.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "short"
+      ],
+      "size_bytes": 5957320,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "love_meditation.gif"
+    },
+    {
+      "id": "luminous_sphere",
+      "title": "Luminous Sphere",
+      "file": "luminous_sphere__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 20533358,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "luminous_sphere.gif"
+    },
+    {
+      "id": "meditation_beat",
+      "title": "Meditation Beat",
+      "file": "meditation_beat__meditation__relax__short.m4a",
+      "category_ids": [
+        "meditation",
+        "relax",
+        "short"
+      ],
+      "size_bytes": 2103974,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "meditation_beat.gif"
+    },
+    {
+      "id": "misty_mountains",
+      "title": "Misty Mountains",
+      "file": "misty_mountains__meditation__nature__long.m4a",
+      "category_ids": [
+        "meditation",
+        "nature",
+        "long"
+      ],
+      "size_bytes": 15167155,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "misty_mountains.gif"
+    },
+    {
+      "id": "nature_sounds",
+      "title": "Nature Sounds",
+      "file": "nature_sounds__meditation__nature__short.m4a",
+      "category_ids": [
+        "meditation",
+        "nature",
+        "short"
+      ],
+      "size_bytes": 1760164,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "nature_sounds.gif"
+    },
+    {
+      "id": "new_day",
+      "title": "New Day",
+      "file": "new_day__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 10385559,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "new_day.gif"
+    },
+    {
+      "id": "ocean_choir",
+      "title": "Ocean Choir",
+      "file": "ocean_choir__meditation__ocean__vocal__long.m4a",
+      "category_ids": [
+        "meditation",
+        "ocean",
+        "vocal",
+        "long"
+      ],
+      "size_bytes": 17542488,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "ocean_choir.gif"
+    },
+    {
+      "id": "power_uplift",
+      "title": "Power Uplift",
+      "file": "power_uplift__meditation__uplifting__long.m4a",
+      "category_ids": [
+        "meditation",
+        "uplifting",
+        "long"
+      ],
+      "size_bytes": 15833732,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "power_uplift.gif"
+    },
+    {
+      "id": "quiet_energy",
+      "title": "Quiet Energy",
+      "file": "quiet_energy__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 21635129,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "quiet_energy.gif"
+    },
+    {
+      "id": "radiant_blue",
+      "title": "Radiant Blue",
+      "file": "radiant_blue__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 8809068,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "radiant_blue.gif"
+    },
+    {
+      "id": "rain_meditation",
+      "title": "Rain Meditation",
+      "file": "rain_meditation__meditation__rain__short.m4a",
+      "category_ids": [
+        "meditation",
+        "rain",
+        "short"
+      ],
+      "size_bytes": 7873008,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "rain_meditation.gif"
+    },
+    {
+      "id": "rainforest_meditation",
+      "title": "Rainforest Meditation",
+      "file": "rainforest_meditation__meditation__rain__forest__nature__long.m4a",
+      "category_ids": [
+        "meditation",
+        "rain",
+        "forest",
+        "nature",
+        "long"
+      ],
+      "size_bytes": 9878223,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "rainforest_meditation.gif"
+    },
+    {
       "id": "relaxing_piano_music",
       "title": "Relaxing Piano Music",
       "file": "relaxing_piano_music__background__study_music.aac",
@@ -198,6 +845,70 @@
       "featured": false,
       "premium": false,
       "thumbnail": "relaxing_piano_music.webp"
+    },
+    {
+      "id": "serene_drift",
+      "title": "Serene Drift",
+      "file": "serene_drift__meditation__calm__short.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "short"
+      ],
+      "size_bytes": 3903322,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "serene_drift.gif"
+    },
+    {
+      "id": "soothing_tones",
+      "title": "Soothing Tones",
+      "file": "soothing_tones__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 19615705,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "soothing_tones.gif"
+    },
+    {
+      "id": "summer_breeze",
+      "title": "Summer Breeze",
+      "file": "summer_breeze__meditation__nature__long.m4a",
+      "category_ids": [
+        "meditation",
+        "nature",
+        "long"
+      ],
+      "size_bytes": 15867817,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "summer_breeze.gif"
+    },
+    {
+      "id": "summer_rain",
+      "title": "Summer Rain",
+      "file": "summer_rain__meditation__rain__long.m4a",
+      "category_ids": [
+        "meditation",
+        "rain",
+        "long"
+      ],
+      "size_bytes": 21514045,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "summer_rain.gif"
     },
     {
       "id": "surprising_melancholy",
@@ -215,6 +926,54 @@
       "thumbnail": "surprising_melancholy.jpg"
     },
     {
+      "id": "tibetan_meditation",
+      "title": "Tibetan Meditation",
+      "file": "tibetan_meditation__meditation__spiritual__long.m4a",
+      "category_ids": [
+        "meditation",
+        "spiritual",
+        "long"
+      ],
+      "size_bytes": 6396988,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "tibetan_meditation.gif"
+    },
+    {
+      "id": "timeless_calm",
+      "title": "Timeless Calm",
+      "file": "timeless_calm__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 14855075,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "timeless_calm.gif"
+    },
+    {
+      "id": "tranquil_waves",
+      "title": "Tranquil Waves",
+      "file": "tranquil_waves__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 15873875,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "tranquil_waves.gif"
+    },
+    {
       "id": "universfield_melancholy",
       "title": "Universfield Melancholy",
       "file": "universfield_melancholy__Melancholy__sad__piano.mp3",
@@ -229,6 +988,54 @@
       "featured": false,
       "premium": false,
       "thumbnail": "universfield_melancholy.jpg"
+    },
+    {
+      "id": "uplifting",
+      "title": "Uplifting",
+      "file": "uplifting__meditation__uplifting__short.m4a",
+      "category_ids": [
+        "meditation",
+        "uplifting",
+        "short"
+      ],
+      "size_bytes": 1602177,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "uplifting.gif"
+    },
+    {
+      "id": "valley_of_silence",
+      "title": "Valley Of Silence",
+      "file": "valley_of_silence__meditation__calm__long.m4a",
+      "category_ids": [
+        "meditation",
+        "calm",
+        "long"
+      ],
+      "size_bytes": 27286249,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "valley_of_silence.gif"
+    },
+    {
+      "id": "zen_meditation",
+      "title": "Zen Meditation",
+      "file": "zen_meditation__meditation__zen__short.m4a",
+      "category_ids": [
+        "meditation",
+        "zen",
+        "short"
+      ],
+      "size_bytes": 2936788,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "zen_meditation.gif"
     }
   ]
 }
