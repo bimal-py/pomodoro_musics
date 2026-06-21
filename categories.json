@@ -9,6 +9,7 @@
   "nature":     { "name": "Nature",     "icon": "🌿", "order": 8 },
   "birds":      { "name": "Birds",      "icon": "🐦", "order": 9 },
   "rain":       { "name": "Rain",       "icon": "🌧️", "order": 10 },
+  "night":      { "name": "Night",      "icon": "🌙", "order": 23 },
   "forest":     { "name": "Forest",     "icon": "🌳", "order": 11 },
   "ocean":      { "name": "Ocean",      "icon": "🌊", "order": 12 },
   "lofi":       { "name": "Lo-fi",      "icon": "🎧", "order": 13 },

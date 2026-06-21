@@ -101,6 +101,7 @@ for (const file of assets) {
 }
 
 const tracks = [];
+const pinById = new Map();
 const referencedCategoryIds = new Set();
 for (const file of audios) {
   const parsed = parseFilename(file);
@@ -132,10 +133,20 @@ for (const file of audios) {
     premium: sidecar.premium === true,
   };
   if (thumbnail) track.thumbnail = thumbnail;
+  if (Number.isFinite(sidecar.pin)) pinById.set(track.id, sidecar.pin);
   tracks.push(track);
 }
 
-tracks.sort((a, b) => a.id.localeCompare(b.id));
+// Pinned tracks (sidecar `"pin": N`) lead the list in ascending pin order;
+// everything else stays alphabetical by id. This is how the app's bundled
+// offline tracks (mirrored here with matching ids) float to the top — and
+// the order survives every CI rebuild, including future music additions.
+tracks.sort((a, b) => {
+  const pa = pinById.has(a.id) ? pinById.get(a.id) : Infinity;
+  const pb = pinById.has(b.id) ? pinById.get(b.id) : Infinity;
+  if (pa !== pb) return pa - pb;
+  return a.id.localeCompare(b.id);
+});
 
 const categoryMeta = readJson(CATEGORIES_FILE) || {};
 const allCategoryIds = new Set([

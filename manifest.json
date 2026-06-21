@@ -113,6 +113,11 @@
       "icon": "⏳"
     },
     {
+      "id": "night",
+      "name": "Night",
+      "icon": "🌙"
+    },
+    {
       "id": "ancient",
       "name": "Ancient",
       "icon": "🎵"
@@ -174,6 +179,64 @@
     }
   ],
   "tracks": [
+    {
+      "id": "rain_thunder",
+      "title": "Rain Thunder",
+      "file": "rain_thunder__rain__nature.aac",
+      "category_ids": [
+        "rain",
+        "nature"
+      ],
+      "size_bytes": 2826965,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "rain_thunder.webp"
+    },
+    {
+      "id": "country_crickets",
+      "title": "Country Crickets",
+      "file": "country_crickets__nature__night.aac",
+      "category_ids": [
+        "nature",
+        "night"
+      ],
+      "size_bytes": 3829583,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "country_crickets.webp"
+    },
+    {
+      "id": "calming_zen",
+      "title": "Calming Zen",
+      "file": "calming_zen__zen.aac",
+      "category_ids": [
+        "zen"
+      ],
+      "size_bytes": 4609272,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "calming_zen.webp"
+    },
+    {
+      "id": "ambient_zen",
+      "title": "Ambient Zen",
+      "file": "ambient_zen__zen.aac",
+      "category_ids": [
+        "zen"
+      ],
+      "size_bytes": 4149636,
+      "duration_sec": 0,
+      "loop": true,
+      "featured": false,
+      "premium": false,
+      "thumbnail": "ambient_zen.webp"
+    },
     {
       "id": "aberdeen_meditation",
       "title": "Aberdeen Meditation",
@@ -281,7 +344,7 @@
       "size_bytes": 737065,
       "duration_sec": 0,
       "loop": true,
-      "featured": false,
+      "featured": true,
       "premium": false
     },
     {
@@ -552,7 +615,7 @@
       "size_bytes": 2914274,
       "duration_sec": 0,
       "loop": true,
-      "featured": false,
+      "featured": true,
       "premium": false,
       "thumbnail": "inner_focus.gif"
     },
@@ -616,7 +679,7 @@
       "size_bytes": 2488823,
       "duration_sec": 0,
       "loop": true,
-      "featured": false,
+      "featured": true,
       "premium": false,
       "thumbnail": "lofi_meditation.gif"
     },
@@ -712,7 +775,7 @@
       "size_bytes": 1760164,
       "duration_sec": 0,
       "loop": true,
-      "featured": false,
+      "featured": true,
       "premium": false,
       "thumbnail": "nature_sounds.gif"
     },
@@ -842,7 +905,7 @@
       "size_bytes": 2799111,
       "duration_sec": 0,
       "loop": true,
-      "featured": false,
+      "featured": true,
       "premium": false,
       "thumbnail": "relaxing_piano_music.webp"
     },
@@ -1033,7 +1096,7 @@
       "size_bytes": 2936788,
       "duration_sec": 0,
       "loop": true,
-      "featured": false,
+      "featured": true,
       "premium": false,
       "thumbnail": "zen_meditation.gif"
     }
